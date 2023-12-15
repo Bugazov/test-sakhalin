@@ -1,0 +1,45 @@
+.about {
+  a {
+    @apply
+    text-blue
+  }
+  @apply
+  flex
+  flex-col
+  gap-y-5
+}
+
+.description {
+  @apply
+  text-[#25292D]
+  max-w-[900px];
+  font-size: 14px;
+}
+
+.about-photo {
+  @apply
+  flex
+  flex-row
+  gap-x-3;
+  img {
+    @apply
+    rounded-3xl
+  }
+}
+
+.info {
+  @apply
+  w-[50%]
+  flex
+  flex-row
+  justify-between
+  items-center
+}
+
+.info-item {
+  span {
+    font-size: 12px;
+    @apply
+    text-gray
+  }
+}

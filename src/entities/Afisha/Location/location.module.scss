@@ -1,0 +1,16 @@
+.location {
+  @apply
+  flex
+  flex-col
+  gap-y-3
+}
+
+.address {
+  span {
+    font-size: 16px;
+  }
+  p {
+    font-size: 20px;
+    font-weight: 500;
+  }
+}
